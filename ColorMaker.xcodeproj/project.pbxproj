@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5B9784521CBAE5840092445A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9784511CBAE5840092445A /* AppDelegate.swift */; };
-		5B9784541CBAE5840092445A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9784531CBAE5840092445A /* ViewController.swift */; };
-		5B9784571CBAE5840092445A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9784551CBAE5840092445A /* Main.storyboard */; };
+		5B9784541CBAE5840092445A /* ColorSlidersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9784531CBAE5840092445A /* ColorSlidersViewController.swift */; };
 		5B9784591CBAE5840092445A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9784581CBAE5840092445A /* Assets.xcassets */; };
 		5B97845C1CBAE5840092445A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B97845A1CBAE5840092445A /* LaunchScreen.storyboard */; };
 		5B9784671CBAE5850092445A /* ColorMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9784661CBAE5850092445A /* ColorMakerTests.swift */; };
 		5B9784721CBAE5850092445A /* ColorMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9784711CBAE5850092445A /* ColorMakerUITests.swift */; };
+		5BDC22761CE128C30082F5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDC22751CE128C30082F5ED /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,7 @@
 /* Begin PBXFileReference section */
 		5B97844E1CBAE5840092445A /* ColorMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9784511CBAE5840092445A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B9784531CBAE5840092445A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B9784561CBAE5840092445A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B9784531CBAE5840092445A /* ColorSlidersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlidersViewController.swift; sourceTree = "<group>"; };
 		5B9784581CBAE5840092445A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B97845B1CBAE5840092445A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B97845D1CBAE5840092445A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		5B97846D1CBAE5850092445A /* ColorMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9784711CBAE5850092445A /* ColorMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMakerUITests.swift; sourceTree = "<group>"; };
 		5B9784731CBAE5850092445A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDC22751CE128C30082F5ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				5B9784511CBAE5840092445A /* AppDelegate.swift */,
-				5B9784531CBAE5840092445A /* ViewController.swift */,
-				5B9784551CBAE5840092445A /* Main.storyboard */,
+				5B9784531CBAE5840092445A /* ColorSlidersViewController.swift */,
+				5BDC22751CE128C30082F5ED /* Main.storyboard */,
 				5B9784581CBAE5840092445A /* Assets.xcassets */,
 				5B97845A1CBAE5840092445A /* LaunchScreen.storyboard */,
 				5B97845D1CBAE5840092445A /* Info.plist */,
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDC22761CE128C30082F5ED /* Main.storyboard in Resources */,
 				5B97845C1CBAE5840092445A /* LaunchScreen.storyboard in Resources */,
 				5B9784591CBAE5840092445A /* Assets.xcassets in Resources */,
-				5B9784571CBAE5840092445A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9784541CBAE5840092445A /* ViewController.swift in Sources */,
+				5B9784541CBAE5840092445A /* ColorSlidersViewController.swift in Sources */,
 				5B9784521CBAE5840092445A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B9784551CBAE5840092445A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B9784561CBAE5840092445A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B97845A1CBAE5840092445A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -482,6 +474,7 @@
 				5B9784781CBAE5850092445A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9784791CBAE5850092445A /* Build configuration list for PBXNativeTarget "ColorMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +483,7 @@
 				5B97847B1CBAE5850092445A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B97847C1CBAE5850092445A /* Build configuration list for PBXNativeTarget "ColorMakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +492,7 @@
 				5B97847E1CBAE5850092445A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
