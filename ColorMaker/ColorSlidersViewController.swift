@@ -18,6 +18,7 @@ class ColorSlidersViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Set default colorView color to black
         self.redColorSlider.value = 0
         self.blueColorSlider.value = 0
         self.greenColorSlider.value = 0
